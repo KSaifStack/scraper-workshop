@@ -1,6 +1,6 @@
 # Scraper Workshop
 
-A beginner-friendly workshop on web scraping with Python. You'll use `requests` to download a real web page and BeautifulSoup to pull structured data out of it: in this case, every book title and price on [Books to Scrape](https://books.toscrape.com/), a site built specifically for practicing scrapers.
+A beginner-friendly workshop on web scraping with Python. You'll use `requests` to download the [SimplifyJobs Summer 2027 Internships README](https://github.com/SimplifyJobs/Summer2027-Internships) and BeautifulSoup to pull every company, role, location, and application link out of its HTML tables.
 
 ## Prerequisites
 
@@ -29,6 +29,12 @@ Stuck? Compare your work against the fully commented solution:
 
 ```bash
 python scraper_solution.py
+```
+
+The solution prints one line per listing, for example:
+
+```
+Royal Bank of Canada | Developer Intern | Toronto, ON, Canada | https://...
 ```
 
 ## Links
